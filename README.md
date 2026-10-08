@@ -14,3 +14,32 @@ While the initial implementation follows a guided build, the project was used to
 - Airflow orchestration
 - Cosmos-based dbt task generation
 - Dockerized Airflow development
+
+
+## What This ELT pipeline Project Refreshed
+
+### dbt
+- Sources and source testing
+- `source()` dependency management
+- Staging → intermediate → mart modeling
+- Generic tests
+- Macros
+- Surrogate keys
+- Materializations
+
+### Snowflake
+- Warehouses vs databases vs schemas
+- External stages and S3 integration
+- Snowflake roles and permissions
+- Loading and querying analytical data
+
+### Airflow
+- DAG structure
+- Scheduling and catchup
+- Task dependencies
+- Dockerized Airflow environments
+
+### Cosmos
+- Translating dbt models into Airflow tasks
+- Executing dbt within Airflow
+- Managing dbt project configuration from Airflow
